@@ -1,4 +1,4 @@
-let compChoice = {value: ""}
+let compChoice = {Value: ""}
 
 function computerPlay(compChoice){
     let choiceNum = Math.floor(Math.random() * 3)
@@ -12,4 +12,5 @@ function computerPlay(compChoice){
         compChoice.Value = 'scissors'
     }
     return choiceNum;
+    console.log(choiceNum)
 }
