@@ -1,5 +1,5 @@
-let compChoice = {Value: ""}
-
+let compChoice = {Value: ""};
+let playerChoice;
 function computerPlay(compChoice){
     let choiceNum = Math.floor(Math.random() * 3)
     if (choiceNum == 0){
