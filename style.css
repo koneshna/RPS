@@ -1,8 +1,19 @@
 body{
     background-color: #222222;
 }
-.header{color: gold;
-font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{
+    font-size: 19px;
+    color: gold;
+}
+.header {
+    color: rgb(255, 30, 218);
+    -family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
+p{
+    margin: 6px
+}
 .flex{
     display: flex;
     height: 100%;
@@ -26,7 +37,25 @@ button{
     border-radius: 12px;
     margin:2px;
     border-color: gold;
+    cursor: pointer;
+    transition: 50ms;
 }
 button:hover{
     background-color: #04AA6D;
+    transform: scale(1.2);
+}
+.result{
+
+    display: grid;
+justify-content: center;
+grid-template-columns: repeat(2, 1fr);
+margin-top: 12px;
+}
+.p1{ 
+    color:red;
+    margin-right: 34px;
+}
+.p2{
+    color: blue;
+    margin-left: 34px;
 }

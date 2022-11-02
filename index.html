@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
     <title>RPS</title>
   </head>
   <body>
     <div class="flex">
-      <div class="header"><p>Pick Your Tool</p></div>
+      <h1>Rock Paper Scissors</h1>
+      <div class="header">
+        <p>BEST OF FIVE</p>
+      </div>
       <div class="selectButton">
         <p>ROCK</p>
         <button id="0">👊</button>
@@ -18,7 +22,16 @@
         <p>SCISSORS</p>
         <button id="2">✌️</button>
       </div>
+      <div class="result">
+        <div class="p1">
+          Player One
+          <span class="score">0</span>
+        </div>
+        <div class="p2">
+          Computer
+          <span class="score">0</span>
+        </div>
+      </div>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
