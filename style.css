@@ -40,7 +40,8 @@ button{
     border-color: gold;
     cursor: pointer;
     transition: 500ms;
-    padding-bottom: 3px
+    padding-bottom: 3px;
+    text-align: center
 }
 button:hover{
     background-color: #04AA6D;
