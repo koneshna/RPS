@@ -1,4 +1,6 @@
 const selectButton = document.querySelectorAll('[data-selection]')
+const compScoreSpan = document.querySelector('[data-comp-score]')
+const playerScoreSpan = document.querySelector('[data-player-score]')
 const SELECTIONS = [
     {
         name: 'rock',
@@ -29,7 +31,16 @@ function makeSelection(selection){
     const computerWinner = isWinner(computerChoice, selection)
     addSelectionResult(computerChoice, computerWinner)
     addSelectionResult(selection, yourWinner)
+
+    if (yourWinner) incrementScore(playerScoreSpan)
+    if (computerWinner) incrementScore(compScoreSpan)
 }
+
+
+function incrementScore(scoreSpan){
+    scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
+}
+
 function addSelectionResult(selection, winner){
 
 }
