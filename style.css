@@ -30,6 +30,7 @@ p{
     justify-content: center;
     align-items: center;
     color: gold;
+   
     
 }
 button{
@@ -38,7 +39,8 @@ button{
     margin:2px;
     border-color: gold;
     cursor: pointer;
-    transition: 50ms;
+    transition: 500ms;
+    padding-bottom: 3px
 }
 button:hover{
     background-color: #04AA6D;
@@ -67,6 +69,7 @@ margin: 12px;
     border-style: solid;
     width: 100px;
     text-align: center;
-    color: red;
+    color: red
+    ;
 
 }
