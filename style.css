@@ -1,5 +1,6 @@
 body{
-    background-color: #3b3b3b;
+    background-color: #080808;
+    transform: scale(1.9);
 }
 h1{
     font-size: 19px;
@@ -22,6 +23,7 @@ p{
     flex-wrap: nowrap;
     align-items: center;
     padding-top: 5px;
+    margin-top: 9vw;
 }
 .selectButton{
     display: flex;
@@ -39,7 +41,7 @@ button{
     border-color: gold;
     cursor: pointer;
     transition: 500ms;
-    padding: 10px;
+    padding: 7px;
     text-align: center
 }
 button:hover{
@@ -52,6 +54,7 @@ button:hover{
 justify-content: center;
 grid-template-columns: repeat(2, 1fr);
 margin: 12px;
+
 }
 .p1{ 
     color:red;
@@ -71,7 +74,9 @@ margin: 12px;
     border-style: solid;
     width: 100px;
     text-align: center;
-    color: red;
+    color: rgb(116, 35, 229);
     padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(28, 28, 28);
 
 }
