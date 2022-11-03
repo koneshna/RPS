@@ -48,6 +48,9 @@ function addSelectionResult(selection, winner){
 function isWinner(selection,opponentSelection){
     return selection.beats === opponentSelection.name
 }
+function roundOver(){
+    if (playerScoreSpan === 5 || compScoreSpan === 5) {let win }
+}
 
 function computerPlay(){
     let choiceNum = Math.floor(Math.random() * SELECTIONS.length)
